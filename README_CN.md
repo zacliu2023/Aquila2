@@ -63,7 +63,7 @@ Aquila2-34B和Aquila2-7B相比同规模的基线模型在各项评测数据集�
 
 经彻查分析，数据泄露发生于某多次合作数据团队所推荐的数学数据集A（超过2百万样本），其包含未经过处理的GSM8K测试集（1319样本）。团队只进行了常规去重和质量检测，未就是否混入GSM8K测试数据进行额外过滤检查而导致失误，实为工作中的疏漏。
 
-团队一直严格遵循训练数据不能包含测试数据的工作原则。汲取本次因未对的外部数据来源进行查证而发生的失误的教训，我们完成了对2万亿token的全量数据进行21个测试数据集的排查。所涉数据集包括WTM22（en-zh）、CLUEWSC、winograde、HellaSwag、OpenBookQA、PIQA、ARC-e、BUSTSM、BoolQ、TruthfulQA、RAFT、ChID、EPRSTMT、TNEWS、OCNLI、SEM-Chinese、MMLU、C-Eval、CMMLU、CSL和HumanEval。
+团队一直严格遵循训练数据不能包含测试数据的工作原则。汲取本次因未对外部数据来源进行查证而发生的失误教训，我们在2万亿token全量数据上完成了针对21个测试数据集的排查，所涉数据集包括WTM22（en-zh）、CLUEWSC、winograde、HellaSwag、OpenBookQA、PIQA、ARC-e、BUSTSM、BoolQ、TruthfulQA、RAFT、ChID、EPRSTMT、TNEWS、OCNLI、SEM-Chinese、MMLU、C-Eval、CMMLU、CSL和HumanEval。
 
 </p>
 <p>
