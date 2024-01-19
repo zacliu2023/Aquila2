@@ -9,20 +9,23 @@
 <br>
 
 <p align="center">
-        🤗 <a href="https://huggingface.co/BAAI">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp <a href="https://model.baai.ac.cn/models"><img src="assets/baai.png" width="18"/> BAAI ModelHub</a>&nbsp&nbsp | &nbsp&nbsp <a href="assets/wechat-qrcode.jpg">微信</a>
+        🤗 <a href="https://huggingface.co/BAAI">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp <a href="https://model.baai.ac.cn/models"><img src="assets/baai.png" width="18"/> BAAI ModelHub</a>&nbsp&nbsp | &nbsp&nbsp <a href="assets/wechat-qrcode.jpg">微信</a>&nbsp&nbsp |  &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/BAAI">ModelScope</a> &nbsp&nbsp| &nbsp&nbsp🧠<a href="https://www.wisemodel.cn/organization/BAAI">WiseModel</a>
 </p>
 <br><br>
 
-我们开源了我们的 **Aquila2** 系列，现在包括基础语言模型 **Aquila2-7B** 和 **Aquila2-34B** ，对话模型 **AquilaChat2-7B** 和 **AquilaChat2-34B**，长文本对话模型**AquilaChat2-7B-16k** 和 **AquilaChat2-34B-16k**，您可以通过点击下方图标进入下载界面：
+我们开源了我们的 **Aquila2** 系列，现在包括基础语言模型 **Aquila2-7B**，**Aquila2-34B** 和 **Aquila2-70B-Expr** ，对话模型 **AquilaChat2-7B** ，**AquilaChat2-34B** 和 **AquilaChat2-70B-Expr**，长文本对话模型**AquilaChat2-7B-16k** 和 **AquilaChat2-34B-16k**，您可以通过点击下方图标进入下载界面：
 
-| 模型名称           | 下载方式  |
-|-------------------|:---------:|
-| Aquila2-7B        | [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100118) [🤗](https://huggingface.co/BAAI/Aquila2-7B)|    -    | 
-| AquilaChat2-7B    | [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100117) [🤗](https://huggingface.co/BAAI/AquilaChat2-7B)|    -    | 
-| AquilaChat2-7B-16k    | [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100120) [🤗](https://huggingface.co/BAAI/AquilaChat2-7B-16K)|    -    | 
-| Aquila2-34B       | [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100119) [🤗](https://huggingface.co/BAAI/AquilaChat2-34B)|    -    | 
-| AquilaChat2-34B   | [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100116) [🤗](https://huggingface.co/BAAI/AquilaChat2-34B)|    -    |
-| AquilaChat2-34B-16k    | [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100121) [🤗](https://huggingface.co/BAAI/AquilaChat2-34B-16K)|    -    |
+| 模型名称           |                                                                       下载方式                                                                        |
+|-------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Aquila2-7B        |       [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100118) [🤗](https://huggingface.co/BAAI/Aquila2-7B)        |  
+| AquilaChat2-7B    |     [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100117) [🤗](https://huggingface.co/BAAI/AquilaChat2-7B)      | 
+| AquilaChat2-7B-16k    |   [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100120) [🤗](https://huggingface.co/BAAI/AquilaChat2-7B-16K)    |  
+| Aquila2-34B       | [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100119) [🤗](https://huggingface.co/BAAI/AquilaChat2-34B) 🤖  🧠  | 
+| AquilaChat2-34B   | [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100116) [🤗](https://huggingface.co/BAAI/AquilaChat2-34B)  🤖 🧠  | 
+| AquilaChat2-34B-16k    | [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100121) [🤗](https://huggingface.co/BAAI/AquilaChat2-34B-16K) 🤖 🧠 | 
+| AquilaChat2-34B-Int4-GPTQ    |  [🤖](https://modelscope.cn/models/BAAI/AquilaChat2-34B-Int4-GPTQ/summary)  [🧠](https://www.wisemodel.cn/models/BAAI/AquilaChat2-34B-Int4-GPTQ/intro) | 
+| Aquila2-70B-Expr        |                                                     [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/220120) [🤗](https://huggingface.co/BAAI/Aquila2-70B-Expr)                                                      |  
+| AquilaChat2-70B-Expr    |                                                   [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/220121) [🤗](https://huggingface.co/BAAI/AquilaChat2-70B-Expr)                                                    | 
 
 
 在这个仓库中，您可以：
@@ -41,7 +44,9 @@
 
 ## 更新
 
-* 2023.11.10 🔥 基于BAAI开源的大型语言模型（Aquila2）和嵌入模型（BGE），利用langchain构建一个基于本地知识库的问答应用解决方案。
+* 2023.11.30 🔥 我们在 ModelHub 和 Hugging Face 上发布了 70B 模型实验版本, **Aquila2-70B-Expr** 和 **AquilaChat2-70B-Expr**。
+
+* 2023.11.10 🔥 基于BAAI开源的大型语言模型（Aquila2）和嵌入模型（BGE），利用langchain构建一个基于本地知识库的问答应用解决方案[Aquila_BGE_langchain](./examples/Aquila_BGE_langchain)。
 
 * 2023.10.25 🔥 1.2版本的 **Aquila2-34B**, **AquilaChat2-34B-16K** 和 **AquilaChat2-34B** 模型已在ModelHub 和 Hugging Face 上更新。
 其中Aquila2-34B模型综合客观评测提升 6.9%，Aquila2-34B v1.2  在 MMLU、TruthfulQA、CSL、TNEWS、OCNLI、BUSTM 等考试、理解及推理评测数据集上的评测结果分别增加 12%、14%、11%、12%、28%、18%。Chat模型在主观评测的8个二级能力维度上，均接近或超过 GPT3.5 水平。 AquilaChat2-34B-16K-V1.2则相较于V1版本在长文本综合能力上有明显提升，接近GPT-3.5-16K。
@@ -59,7 +64,7 @@ Aquila2-34B和Aquila2-7B相比同规模的基线模型在各项评测数据集�
 <p>
 <br>
 <p>
-注：发现在预训练任务数据集中存在GSM8K测试数据泄露问题，从评测结果中删除GSM8K的评估结果。 
+注：发现在预训练任务数据集中存在GSM8K测试数据泄露问题，从评测结果中删除GSM8K的评估结果。
 
 经彻查分析，数据泄露发生于某多次合作数据团队所推荐的数学数据集A（超过2百万样本），其包含未经过处理的GSM8K测试集（1319样本）。团队只进行了常规去重和质量检测，未就是否混入GSM8K测试数据进行额外过滤检查而导致失误，实为工作中的疏漏。
 
@@ -213,9 +218,33 @@ out = predict(model, text, tokenizer=tokenizer, max_gen_len=200, top_p=0.95,
 print(out)
 ```
 
+### AquilaChat2-70B-Expr
+通常需要多卡进行推理如下：
+```python
+from flagai.auto_model.auto_loader import AutoLoader
+
+model_name = 'AquilaChat2-70B-Expr'
+
+autoloader = AutoLoader("aquila2", model_name=model_name, all_devices=True)
+
+model = autoloader.get_model()
+tokenizer = autoloader.get_tokenizer()
+
+test_data = [
+    "北京的十大景点是什么?",
+    "写一首中秋主题的五言绝句",
+    "Write a tongue twister that's extremely difficult to pronounce.",
+]
+
+for text in test_data:
+    print(model.predict(text, tokenizer=tokenizer, model_name=model_name, top_p=0.9, seed=123, topk=15, temperature=1.0))
+```
+推理例子也可以参考 [AquilaChat2-70B-Expr](./examples/predict_chat_70b.py)。
+
+
 ## 量化
 
-### 用法
+### BitsAndBytes用法
 
 使用量化之前，需要安装`BitsAndBytes`：
 
@@ -262,8 +291,69 @@ AquilaChat2-34B 4Bit 版本拥有99.3% bf16版本的性能。
 
 <img src="./assets/table.png"   align=center />
 
+### GPTQ用法
+
+首先需要手动下载GPTQ模型(当前只有34BChat模型)，现在支持[ModelScope](https://modelscope.cn/models/BAAI/AquilaChat2-34B-Int4-GPTQ/summary) 和[WiseModel](https://www.wisemodel.cn/models/BAAI/AquilaChat2-34B-Int4-GPTQ/intro) | 
+
+然后根据自己的环境，参考https://github.com/PanQiWei/AutoGPTQ/tree/main/auto_gptq/modeling 选择安装方式。
+
+最后运行如下代码即可:
+
+```python
+from transformers import AutoTokenizer
+from auto_gptq import AutoGPTQForCausalLM
+
+# pretrained_model_dir = "/share/project/ldwang/checkpoints/Aquila-33b-knowledge6-341000-sft-v0.9.16/iter_0004000_hf"
+model_dir = "./checkpoints/Aquilachat34b-4bit" # 模型路径
+device="cuda:0"
+
+tokenizer = AutoTokenizer.from_pretrained(model_dir, use_fast=True,trust_remote_code=True)
+model = AutoGPTQForCausalLM.from_quantized(model_dir, inject_fused_attention=False, low_cpu_mem_usage=True, device=device)
 
 
+model.eval()
+import time 
+texts = ["请给出10个要到北京旅游的理由。",
+         "写一个林黛玉倒拔垂杨柳的故事",
+         "write a poet about moon"]
+from predict import predict
+start_time = time.time()
+for text in texts:
+    out = predict(model, text, tokenizer=tokenizer, max_gen_len=200, top_p=0.95,
+                seed=1234, topk=200, temperature=1.0, sft=True, device=device,
+                model_name="AquilaChat2-34B")
+print(out)
+print(f"Elapsed time model loading: {time.time()-start_time} seconds")
+```
+
+### AWQ用法
+首先运行./examples/modelhub_download.py来下载AquilaChat2-34B-AWQ模型。
+
+然后从https://github.com/casper-hansen/AutoAWQ 安装AutoAWQ==v0.1.5。
+
+最后运行如下代码：
+```python
+import torch
+
+from awq import AutoAWQForCausalLM
+from transformers import AutoTokenizer
+
+awq_model_path = './checkpoints/aquilachat2-34b-awq'
+model = AutoAWQForCausalLM.from_quantized(awq_model_path,trust_remote_code=True,fuse_layers=True)
+tokenizer = AutoTokenizer.from_pretrained(awq_model_path,trust_remote_code=True)
+model.eval()
+
+device = torch.device("cuda:0")
+model.to(device)
+
+text = "请给出10个要到北京旅游的理由。"
+from flagai.model.aquila2.utils import covert_prompt_to_input_ids_with_history
+history = None
+text = covert_prompt_to_input_ids_with_history(text, history, tokenizer, 2048, convo_template="aquila-legacy")
+inputs = torch.tensor([text]).to(device)
+outputs = model.generate(inputs)[0]
+print(tokenizer.decode(outputs))
+```
 
 <br><br>
 
@@ -386,7 +476,7 @@ AquilaChat2-34B-16K以Aquila2-34B为基座，经过位置编码内插法处理�
 
 ## 使用协议
 
-Aquila2项目基于 [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0) 协议；Aquila2系列模型则是基于[智源Aquila系列模型许可协议](./assets/aquila_license.pdf)。
+Aquila2项目基于 [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0) 协议；Aquila2系列模型则是基于[智源Aquila系列模型许可协议](./assets/aquila_license.pdf)；特别说明，Aquila2 70B系列模型则是基于[智源Aquila系列70B模型许可协议](./assets/aquila2_70b_license.pdf)。
 
 <br><br>
 

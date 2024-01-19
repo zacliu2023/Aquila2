@@ -9,20 +9,22 @@
 <br>
 
 <p align="center">
-        🤗 <a href="https://huggingface.co/BAAI">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp <a href="https://model.baai.ac.cn/models"><img src="assets/baai.png" width="18"/> BAAI ModelHub</a>&nbsp&nbsp | &nbsp&nbsp <a href="assets/wechat-qrcode.jpg">WeChat(微信)</a>
+        🤗 <a href="https://huggingface.co/BAAI">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp <a href="https://model.baai.ac.cn/models"><img src="assets/baai.png" width="18"/> BAAI ModelHub</a>&nbsp&nbsp | &nbsp&nbsp <a href="assets/wechat-qrcode.jpg">微信</a>&nbsp&nbsp |  &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/BAAI">ModelScope</a> &nbsp&nbsp| &nbsp&nbsp🧠<a href="https://www.wisemodel.cn/organization/BAAI">WiseModel</a>
 </p>
 <br>
 
-We announce that our **Aquila2** series is now open source, comprising Aquila2 (the base language models: **Aquila2-7B** and **Aquila2-34B**) and AquilaChat2 (the chat models, namely **AquilaChat2-7B** and **AquilaChat2-34B**, as well as the long-text chat models, namely **AquilaChat2-7B-16k** and **AquilaChat2-34B-16k**). You can find the links in the following table. Kindly click on them to access the model cards.
+We announce that our **Aquila2** series is now open source, comprising Aquila2 (the base language models: **Aquila2-7B**, **Aquila2-34B** and **Aquila2-70B-Expr**) and AquilaChat2 (the chat models, namely **AquilaChat2-7B**, **AquilaChat2-34B** and **AquilaChat2-70B-Expr**, as well as the long-text chat models, namely **AquilaChat2-7B-16k** and **AquilaChat2-34B-16k**). You can find the links in the following table. Kindly click on them to access the model cards.
 
-| Model Name         | Download Sources  | 
-|-------------------|:---------:|
-| Aquila2-7B        | [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100118) [🤗](https://huggingface.co/BAAI/Aquila2-7B)|    -    | 
-| AquilaChat2-7B    | [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100117) [🤗](https://huggingface.co/BAAI/AquilaChat2-7B)|    -    | 
-| AquilaChat2-7B-16k    | [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100120) [🤗](https://huggingface.co/BAAI/AquilaChat2-7B-16K)|    -    | 
-| Aquila2-34B       | [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100119) [🤗](https://huggingface.co/BAAI/AquilaChat2-34B)|    -    | 
-| AquilaChat2-34B   | [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100116) [🤗](https://huggingface.co/BAAI/AquilaChat2-34B)|    -    |
-| AquilaChat2-34B-16k    | [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100121) [🤗](https://huggingface.co/BAAI/AquilaChat2-34B-16K)|    -    |
+| Model Name         |                                                                                                               Download Sources                                                                                                                | 
+|-------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| Aquila2-7B        |                                                     [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100118) [🤗](https://huggingface.co/BAAI/Aquila2-7B)                                                      |  
+| AquilaChat2-7B    |                                                   [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100117) [🤗](https://huggingface.co/BAAI/AquilaChat2-7B)                                                    | 
+| AquilaChat2-7B-16k    |                                                 [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100120) [🤗](https://huggingface.co/BAAI/AquilaChat2-7B-16K)                                                  |  
+| Aquila2-34B       |   [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100119) [🤗](https://huggingface.co/BAAI/AquilaChat2-34B) [🤖](https://modelscope.cn/organization/BAAI)  [🧠](https://www.wisemodel.cn/organization/BAAI)   | 
+| AquilaChat2-34B   |  [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/100116) [🤗](https://huggingface.co/BAAI/AquilaChat2-34B)  [🤖](https://modelscope.cn/organization/BAAI)  [🧠](https://www.wisemodel.cn/organization/BAAI)   | 
+| AquilaChat2-34B-Int4-GPTQ    |  [🤖](https://modelscope.cn/models/BAAI/AquilaChat2-34B-Int4-GPTQ/summary)  [🧠](https://www.wisemodel.cn/models/BAAI/AquilaChat2-34B-Int4-GPTQ/intro) | 
+| Aquila2-70B-Expr        |                                                     [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/220120) [🤗](https://huggingface.co/BAAI/Aquila2-70B-Expr)                                                      |  
+| AquilaChat2-70B-Expr    |                                                   [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/220121) [🤗](https://huggingface.co/BAAI/AquilaChat2-70B-Expr)                                                    | 
 
 In this repo, you can figure out:
 
@@ -36,9 +38,11 @@ Please don't hesitate to bring up issues and feel free to submit pull requests (
 
 ## News and Updates
 
-* 2023.11.10 🔥 Based on the open-source large language model (Aquila2) and embedding model (BGE) released by BAAI, a solution for a question-answering application based on a local knowledge base has been developed using langchain.
+* 2023.11.30 🔥 Experimental Version of 70B models, **Aquila2-70B-Expr** and **AquilaChat2-70B-Expr** have been released on ModelHub and Hugging Face.
+
+* 2023.11.10 🔥 Based on the open-source large language model (Aquila2) and embedding model (BGE) released by BAAI, [Aquila_BGE_langchain](./examples/Aquila_BGE_langchain) a solution for a question-answering application based on a local knowledge base has been developed using langchain.
   
-* 2023.10.25 🔥 Version 1.2 of **Aquila2-34B** 和 **AquilaChat2-34B** has been released on ModelHub and Hugging Face. The base model achieved an objective evaluation improvement of 6.9%. Aquila2-34B v1.2 demonstrated evaluation results on various examination, comprehension, and reasoning datasets, such as MMLU, TruthfulQA, CSL, TNEWS, OCNLI, and BUSTM, with respective increments of 12%, 14%, 11%, 12%, 28%, and 18%. In the subjective evaluation of 8 secondary ability dimensions, the Chat model reached or surpassed the level of GPT3.5. Compared to the V1 version, AquilaChat2-34B-16K-V1.2 demonstrates a significant improvement in its ability to handle long texts, approaching the level of GPT-3.5-16K.
+* 2023.10.25 🔥 Version 1.2 of **Aquila2-34B** and **AquilaChat2-34B** has been released on ModelHub and Hugging Face. The base model achieved an objective evaluation improvement of 6.9%. Aquila2-34B v1.2 demonstrated evaluation results on various examination, comprehension, and reasoning datasets, such as MMLU, TruthfulQA, CSL, TNEWS, OCNLI, and BUSTM, with respective increments of 12%, 14%, 11%, 12%, 28%, and 18%. In the subjective evaluation of 8 secondary ability dimensions, the Chat model reached or surpassed the level of GPT3.5. Compared to the V1 version, AquilaChat2-34B-16K-V1.2 demonstrates a significant improvement in its ability to handle long texts, approaching the level of GPT-3.5-16K.
 
 * 2023.10.12 🔥 We release **Aquila2** series on BAAI ModelHub and Hugging Face.
 <br><br>
@@ -201,6 +205,29 @@ out = predict(model, text, tokenizer=tokenizer, max_gen_len=200, top_p=0.95,
 print(out)
 ```
 
+### AquilaChat2-70B-Expr
+You should use multiple gpus inference as follows:
+```python
+from flagai.auto_model.auto_loader import AutoLoader
+
+model_name = 'AquilaChat2-70B-Expr'
+
+autoloader = AutoLoader("aquila2", model_name=model_name, all_devices=True)
+
+model = autoloader.get_model()
+tokenizer = autoloader.get_tokenizer()
+
+test_data = [
+    "北京的十大景点是什么?",
+    "写一首中秋主题的五言绝句",
+    "Write a tongue twister that's extremely difficult to pronounce.",
+]
+
+for text in test_data:
+    print(model.predict(text, tokenizer=tokenizer, model_name=model_name, top_p=0.9, seed=123, topk=15, temperature=1.0))
+```
+The example also can be found in [AquilaChat2-70B-Expr](./examples/predict_chat_70b.py) . 
+
 ## Quantization
 
 Before using quantization, `BitsAndBytes` needs to be installed:
@@ -211,7 +238,7 @@ pip install bitsandbytes
 
 After that, you're all set to use the quantized models for inference!
 
-### Usage
+### Usage of BitsAndBytes quantization
 
 ```python
 import torch 
@@ -246,6 +273,70 @@ AquilaChat2-34B 4Bit version has 99.3% of the performance of the bf16 version.
 The 4Bit version of AquilaChat2-34B offers significantly better performance than the 7B model and has similar memory usage.
 
 <img src="./assets/table.png"   align=center />
+
+### Usage of GPTQ quantization
+
+Download GPTQ int4-quantized model first，via [ModelScope](https://modelscope.cn/models/BAAI/AquilaChat2-34B-Int4-GPTQ/summary) and [WiseModel](https://www.wisemodel.cn/models/BAAI/AquilaChat2-34B-Int4-GPTQ/intro) | 
+
+Then follow the instructions in https://github.com/PanQiWei/AutoGPTQ/tree/main/auto_gptq/modeling.
+
+Finally run the following code:
+
+```python
+from transformers import AutoTokenizer
+from auto_gptq import AutoGPTQForCausalLM
+
+# pretrained_model_dir = "/share/project/ldwang/checkpoints/Aquila-33b-knowledge6-341000-sft-v0.9.16/iter_0004000_hf"
+model_dir = "./checkpoints/Aquilachat34b-4bit" # 模型路径
+device="cuda:0"
+
+tokenizer = AutoTokenizer.from_pretrained(model_dir, use_fast=True,trust_remote_code=True)
+model = AutoGPTQForCausalLM.from_quantized(model_dir, inject_fused_attention=False, low_cpu_mem_usage=True, device=device)
+
+
+model.eval()
+import time 
+texts = ["请给出10个要到北京旅游的理由。",
+         "写一个林黛玉倒拔垂杨柳的故事",
+         "write a poet about moon"]
+from predict import predict
+start_time = time.time()
+for text in texts:
+    out = predict(model, text, tokenizer=tokenizer, max_gen_len=200, top_p=0.95,
+                seed=1234, topk=200, temperature=1.0, sft=True, device=device,
+                model_name="AquilaChat2-34B")
+print(out)
+print(f"Elapsed time model loading: {time.time()-start_time} seconds")
+```
+
+### Usage of AWQ 
+Run ./examples/modelhub_download.py to download AquilaChat2-34B-AWQ.
+
+Install AutoAWQ==v0.1.5 from https://github.com/casper-hansen/AutoAWQ.
+
+Finally run the following code:
+```python
+import torch
+
+from awq import AutoAWQForCausalLM
+from transformers import AutoTokenizer
+
+awq_model_path = './checkpoints/aquilachat2-34b-awq'
+model = AutoAWQForCausalLM.from_quantized(awq_model_path,trust_remote_code=True,fuse_layers=True)
+tokenizer = AutoTokenizer.from_pretrained(awq_model_path,trust_remote_code=True)
+model.eval()
+
+device = torch.device("cuda:0")
+model.to(device)
+
+text = "请给出10个要到北京旅游的理由。"
+from flagai.model.aquila2.utils import covert_prompt_to_input_ids_with_history
+history = None
+text = covert_prompt_to_input_ids_with_history(text, history, tokenizer, 2048, convo_template="aquila-legacy")
+inputs = torch.tensor([text]).to(device)
+outputs = model.generate(inputs)[0]
+print(tokenizer.decode(outputs))
+```
 
 
 ## Pretraining
@@ -375,7 +466,7 @@ You're welcome to submit your questions or share your user experience in [GitHub
 
 ## License Agreement
 
-The Aquila2 project is based on the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0); The Aquila2 series models are based on the [BAAI Aquila Model License Agreement](./assets/aquila_license.pdf).
+The Aquila2 project is based on the [Apache 2.0 license](https://www.apache.org/licenses/LICENSE-2.0); The Aquila2 series models are based on the [BAAI Aquila Model License Agreement](./assets/aquila_license.pdf). Specially the Aquila2 70B series models are based on the [BAAI Aquila 70B Model License Agreement](./assets/aquila2_70b_license.pdf).
 
 <br><br>
 
